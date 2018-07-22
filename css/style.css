@@ -17,6 +17,10 @@
     font-style: normal;
 }
 @font-face {
+	font-family: 'DIN Pro Black';
+    src: url('../Fonts/DINPro-black.otf')  format('opentype');
+}
+@font-face {
 	font-family: 'Pobeda Bold';
     src: url('../Fonts/Pobeda-Bold.ttf')  format('truetype'),
          url('../Fonts/Pobeda-Bold.eot?') format('eot'), 
@@ -136,12 +140,12 @@ a.nav-link:hover {
     display: inline;
 }
 .main-btn {
-    font-size: 1.9em;
+    font-size: 1.85em;
     font-family: 'Pobeda Bold';
     text-transform: uppercase;
     color: #FF0000;
     border: 2px #FF0000 solid;
-    padding: 2px 30px;
+    padding: 0 40px;
     background-color: transparent;
 }
 .sub-main-btn {
@@ -271,7 +275,7 @@ nav li a {
    border-radius: 2px 2px 0 0;
 }
 .marker-info {
-    font-family: "DIN Pro"
+    font-family: "DIN Pro";
     background-color: black;
     color: white;
 }
@@ -522,9 +526,6 @@ h3 a {
     border-color: transparent;
     color: #777;
 }
-.main-red.char-item.active {
-
-}
 .shipments {
     padding-top: 50px;
     padding-bottom: 20px;
@@ -542,7 +543,7 @@ h3 a {
     margin-bottom: 20px;
 }
 .ship-categories .nav-item a {
-    padding: 0 15px;
+    padding: 0 30px;
 }
 .ship-categories .main-red.not-active:hover {
     cursor: pointer;
@@ -1164,7 +1165,7 @@ sup {
 }
 .ship-categories .nav-link {
     color: #495057;
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: "Pobeda Bold";
     padding-left: 15px;
     padding-bottom: 5px;
@@ -1569,9 +1570,6 @@ ol.breadcrumb a {
     }
     #map {
         height: 500px;
-    }
-    .ship-categories .nav-link {
-        font-size: 2em;
     }
 }
 @media only screen and (max-width: 650px) {     
